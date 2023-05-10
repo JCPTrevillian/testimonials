@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background: #4f4f4f;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.hero h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.slide-row{
+    display: flex;
+    width: 3200px;
+}
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
