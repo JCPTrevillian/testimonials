@@ -1,66 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonials Design</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <div class="hero">
-    <h1>Testimonials</h1>
-    <div class="slide-row">
-        <div class="slide-col">
-            <div class="user-text">
-                <p>"I was admittedly nervous about having oral surgery but the staff made me comfortable with what to expect 
-                so I felt well informed and prepared on the day of my appointment. They answered all of my questions as 
-                well as helped me understand pain and pain management after my procedure. My only regret is I waited so long!"</p>
-                <h3>Benjamin</h3>
-                <p>Mill Valley, Marin</p>    
-            </div>
-            <div class="user.img">
-                <img src="user-1.png">
-            </div>
-        </div>     
-        <div class="slide-col">
-            <div class="user-text">
-                <p>"I had a consultation years ago and recently scheduled another one to see if maybe I 
-                    could get the work done since I had time off from work. Not only did they remember me, 
-                    we had the second consult without repeating what I already knew from my first consult. 
-                    Surgery mornings in this office are what their long standing reputation is built on."</p>
-                <h3>Courtney</h3>
-                <p>Nob Hill, San Francisco</p>    
-            </div>
-            <div class="user.img">
-                <img src="user-2.png">
-            </div>
-        </div>     
-        <div class="slide-col">
-            <div class="user-text">
-                <p>"Coordinating my orthodontia and individual implants were a breeze thanks to the experienced staff at both offices. 
-                    Everyone coordinated the timing of my treatment plans, insruance payments, etc. I am satisfied with my 
-                    result. I recommend!"</p>
-                <h3>Suzanna</h3>
-                <p>SOMA, San Francisco</p>    
-            </div>
-            <div class="user.img">
-                <img src="user-3.png">
-            </div>
-        </div>     
-        <div class="slide-col">
-            <div class="user-text">
-                <p>"Emergency surgery - same day consultation and procedure. They made my appointment work with their schedule because 
-                    I was in so much pain. Everyone was really nice and I felt well cared for in my worst time of need. The insurance 
-                    was handled so I paid very little out of pocket."</p>
-                <h3>Jack</h3>
-                <p>Ingleside, San Francisco</p>    
-            </div>
-            <div class="user.img">
-                <img src="user-4.png">
-            </div>
-        </div>     
-    </div>
-</div>
+     <h1>Patient Testimonials</h1>
+     
+     <div class="container">
+       <div class="indicator">
+           <span class="btn active"></span>
+           <span class="btn"></span>
+           <span class="btn"></span>
+           <span class="btn"></span>
+       </div>
+        <div class="testimonial">
+         <div class="slide-row" id="slide">
+             <div class="slide-col">
+             <div class="user-text">
+                 <p>"I was admittedly nervous about having oral surgery but the staff made me comfortable with what to expect so I felt well informed and prepared on the day of my appointment. They answered all of my questions as well as helped me understand pain and pain management after my procedure."</p>
+                 <h3>Benjamin</h3>
+                 <p>Mill Valley, California </p>
+             </div>
+             <div class="user-img">
+                 <img src="user-1.png">
+             </div>
+         </div>
+             <div class="slide-col">
+             <div class="user-text">
+                 <p>"I had a consultation years ago and recently scheduled another one to see if maybe I could get the work done since I had time off from work. Not only did they remember me, we had the second consult without repeating what I already knew from my first consult. Surgery mornings in this office are what their long standing reputation is built on."</p>
+                 <h3>Marjorie</h3>
+                 <p>Nob Hill, San Francisco</p>
+             </div>
+             <div class="user-img">
+                 <img src="user-2.png">
+             </div>
+         </div>
+             <div class="slide-col">
+             <div class="user-text">
+                 <p>"Coordinating my orthodontia and individual implants were a breeze thanks to the experienced staff at both offices. Everyone coordinated the timing of my treatment plans, insruance payments, etc. I am satisfied with my result. I recommend!"</p>
+                 <h3>Suzanna</h3>
+                 <p>SOMA, San Francisco</p>
+             </div>
+             <div class="user-img">
+                 <img src="user-3.png">
+             </div>
+         </div>
+             <div class="slide-col">
+             <div class="user-text">
+                 <p>"Emergency surgery - same day consultation and procedure. They made my appointment work with their schedule because I was in so much pain. Everyone was really nice and I felt well cared for in my worst time of need. The insurance was handled so I paid very little out of pocket.”</p>
+                 <h3>Jack</h3>
+                 <p>Ingleside, San Francisco</p>
+             </div>
+             <div class="user-img">
+                 <img src="user-4.png">
+             </div>
+         </div>
+         </div>
+         </div>
+     </div>
+    
+ </div>
+ 
+<script>
+    
+    var btn = document.getElementsByClassName("btn");
+    var slide = document.getElementById("slide");
+    
+    btn[0].onclick = function(){
+        slide.style.transform = "translateX(0px)";
+        for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[1].onclick = function(){
+        slide.style.transform = "translateX(-800px)";
+        for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[2].onclick = function(){
+        slide.style.transform = "translateX(-1600px)";
+        for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[3].onclick = function(){
+        slide.style.transform = "translateX(-2400px)";
+        for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    
+    
+</script>
+
 </body>
-</html>  
+</html>
+
+
+
+
+
+
+ 
