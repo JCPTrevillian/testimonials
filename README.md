@@ -27,7 +27,7 @@ below the image. the elongated oval button informs user where they are within th
 \
 \
 The setup for the patient testimonials opened with a list of classes of the element that allow CSS and Javascript to select 
-and access specificelements via Document.getelementsByClassName() or ocument.getelementsByID() you will see used later in 
+and access specificelements via Document.getelementsByClassName() or Document.getelementsByID() you will see used later in 
 lines 67 and 68 of index.HTML
 \
 \
