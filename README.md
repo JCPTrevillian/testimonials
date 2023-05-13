@@ -58,8 +58,7 @@ to advance to the next testimonial out of 4 where it is placed within the row.**
 ![5](https://github.com/JCPTrevillian/testimonials/assets/95890754/b3a8b343-42c0-4fcb-8aa1-806847a63f5e)
 \
 \
-**The CSS challenge for me was overlaying the textbox with the image without imposing too much on the image space. 
-I eventually modified the width and height of the textbox.I love the rounded corners for both text box and image box thanks to border-radius** 
+**The CSS challenge for me was overlaying the textbox with the image without imposing too much on the image space. Initially the text box UR and LR corners were tucked behind the image. z-index (line 52) resolved that by bringing the right corners tucked behind the image forward but it was imposing too much onto the image. Not wanting to sacrifice the size of the image, I reduced the text box width and height to maintain the rectangular shape while allowing reasonable overlap. Border-radius rounded the corners for. apolished look.** 
 \
 \
 ![6](https://github.com/JCPTrevillian/testimonials/assets/95890754/1ff95dae-084e-4b30-95d6-3e14ece71328)
