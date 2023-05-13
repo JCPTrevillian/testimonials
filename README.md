@@ -35,7 +35,7 @@ with the first patient and once I verified everything looked the way it was inte
 \
 \
 **The setup for the patient testimonials opened with a list of classes of the element that allow CSS and Javascript to select 
-and access specificelements via Document.getelementsByClassName() or Document.getelementsByID() you will see used later in 
+and access specific elements via Document.getelementsByClassName() and/or Document.getelementsByID() you will see used later in 
 lines 67 and 68 of index.HTML**
 \
 \
@@ -46,13 +46,13 @@ lines 67 and 68 of index.HTML**
 \
 \
 **The event handler (event listener) that responds when user clicks (onClick) the buttons below the testimonials. Each button counts where it is +1
-to advance to the next testimonial out of 4 where it is placed within the row.**
+to advance to the next testimonial out of 4 (zero indexed) where it is placed within the row.**
 \
 \
 ![4](https://github.com/JCPTrevillian/testimonials/assets/95890754/d91f3f6f-389f-4556-b983-3d89973cbcd7)
 \
 \
-**Container and indicator classes for button when the event handler is initiated.** 
+**Container and indicator classes for button when the event handler is initiated. First button has "active" which means the elongated button for whichever of the 4 options are chosen (insdex 0 so buttons are 0,1,2,3)** 
 \
 \
 ![5](https://github.com/JCPTrevillian/testimonials/assets/95890754/b3a8b343-42c0-4fcb-8aa1-806847a63f5e)
