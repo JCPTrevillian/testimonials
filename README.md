@@ -46,7 +46,7 @@ lines 67 and 68 of index.HTML**
 \
 \
 **The event handler (event listener) that responds when user clicks (onClick) the buttons below the testimonials. Each button counts where it is +1
-to advance "active" to the next testimonial and remove active from the previous page**
+to advance "active" to the next testimonial and remove active from the previous page - looping through the 4 testimonial pages. **
 \
 \
 ![4](https://github.com/JCPTrevillian/testimonials/assets/95890754/d91f3f6f-389f-4556-b983-3d89973cbcd7)
@@ -58,7 +58,7 @@ to advance "active" to the next testimonial and remove active from the previous 
 ![5](https://github.com/JCPTrevillian/testimonials/assets/95890754/b3a8b343-42c0-4fcb-8aa1-806847a63f5e)
 \
 \
-**The CSS challenge for me was overlaying the textbox with the image without imposing too much on the image space. Initially the text box UR and LR corners were tucked behind the image. z-index (line 52) resolved that by bringing the right corners tucked behind the image forward but it was imposing too much onto the image. Not wanting to sacrifice the size of the image, I reduced the text box width and height to maintain the rectangular shape while allowing reasonable overlap. Border-radius rounded the corners for. apolished look.** 
+**The CSS challenges: overlaying the textbox with the image without imposing too much on the image space. Initially the text box UR and LR corners were tucked behind the image. z-index (line 52) resolved that by bringing the right corners tucked behind the image forward but it was imposing too much onto the image. Not wanting to sacrifice the size of the image, I reduced the text box width and height to maintain the rectangular shape while allowing reasonable overlap. Border-radius rounded the corners for a polished look.** 
 \
 \
 ![6](https://github.com/JCPTrevillian/testimonials/assets/95890754/1ff95dae-084e-4b30-95d6-3e14ece71328)
