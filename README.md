@@ -46,7 +46,7 @@ lines 67 and 68 of index.HTML**
 \
 \
 **The event handler (event listener) that responds when user clicks (onClick) the buttons below the testimonials. Each button counts where it is +1
-to advance "active" to the next testimonial and remove active from the previous page - looping through the 4 testimonial pages. **
+to advance "active" to the next testimonial and remove active from the previous page - looping through the 4 testimonial pages.**
 \
 \
 ![4](https://github.com/JCPTrevillian/testimonials/assets/95890754/d91f3f6f-389f-4556-b983-3d89973cbcd7)
