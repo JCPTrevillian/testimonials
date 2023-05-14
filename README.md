@@ -2,8 +2,8 @@
 **Testimonials responsive page:  HTML | CSS | JAVASCRIPT**
 \
 \
-This is a responsive patient testimonials page that slides from patient to patient by clicking on the round buttons 
-below the image. the elongated oval button informs user where they are within the 4 testimonials. 
+This is a responsive patient testimonials page that slides from patient tetimonial page to patient testimonial page by clicking the round buttons 
+below the image and text box. The elongated oval button informs user where they are within the 4 testimonials. 
 \
 \
 \
