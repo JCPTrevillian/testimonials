@@ -2,12 +2,12 @@
 **Testimonials responsive page:  HTML | CSS | JAVASCRIPT**
 \
 \
-This is a responsive patient testimonials page that slides from patient tetimonial page to patient testimonial page by clicking the round buttons 
-below the image and text box. The elongated oval button informs user where they are within the 4 testimonials. 
+This is a responsive patient testimonials page that slides from patient testimonial page to patient testimonial page by clicking the round buttons 
+below the image and text box. The elongated oval button informs user where they are within sequential order of the 4 testimonials. 
 \
 \
 \
-***This is the rendering of each patient testimonial when you click the button:*** 
+***This is the rendering for each patient testimonial when you click the button:*** 
 \
 \
 ![pt1](https://github.com/JCPTrevillian/testimonials/assets/95890754/076cab5c-ef46-4eaa-9eda-24c906250a1c)
@@ -45,8 +45,8 @@ lines 67 and 68 of index.HTML**
 ![3](https://github.com/JCPTrevillian/testimonials/assets/95890754/db993531-a316-4793-9dfd-20adea74cd6c)
 \
 \
-**The event handler (event listener) that responds when user clicks (onClick) the buttons below the testimonials. Each button counts where it is +1
-to advance "active" to the next testimonial and remove active from the previous page.**
+**The event handler that responds when user clicks (onClick) the buttons below the testimonials. Each button counts where it is +1
+to advance "active" to the next testimonial and remove active from the previous one.**
 \
 \
 ![4](https://github.com/JCPTrevillian/testimonials/assets/95890754/d91f3f6f-389f-4556-b983-3d89973cbcd7)
